@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Ranking Ladder</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body style="margin:0; font-family: Arial, sans-serif; background: linear-gradient(to bottom right, #e0f2fe, #f0f9ff);">
+    <div style="min-height:100vh; display:flex; justify-content:center; align-items:center;">
+        <div style="width:100%; max-width:900px; padding:20px;">
+            @Html.Partial("_Navbar")
+
+            @RenderBody()
+        </div>
+    </div>
+</body>
+</html>

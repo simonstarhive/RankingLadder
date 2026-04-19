@@ -1,0 +1,74 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+<div class="min-h-screen flex items-center justify-center bg-blue-50">
+    <div class="bg-white p-8 rounded-2xl shadow-lg w-full max-w-md">
+
+        <h1 class="text-3xl font-bold text-center text-gray-800 mb-6">
+            Create an Account
+        </h1>
+
+        <form method="post" action="/Auth/Signup">
+
+            <!-- NAME -->
+            <div class="mb-3">
+                <input name="Name" placeholder="First and Last Name"
+                       class="w-full p-2 border rounded-lg" />
+            </div>
+
+            <!-- EMAIL -->
+            <div class="mb-3">
+                <input name="Email" placeholder="example@ucf.edu"
+                       class="w-full p-2 border rounded-lg" />
+            </div>
+
+            <!-- UCF ID -->
+            <div class="mb-3">
+                <input name="ID" placeholder="UCF ID"
+                       class="w-full p-2 border rounded-lg" />
+            </div>
+
+            <!-- PASSWORD -->
+            <div class="mb-3">
+                <input name="Password" type="password" placeholder="Password"
+                       class="w-full p-2 border rounded-lg" />
+            </div>
+
+            <!-- CONFIRM PASSWORD -->
+            <div class="mb-4">
+                <input name="ConfirmPassword" type="password" placeholder="Confirm Password"
+                       class="w-full p-2 border rounded-lg" />
+            </div>
+
+            <!-- GENDER -->
+            <div class="mb-4 text-center">
+                <label class="block text-sm font-medium mb-2">Gender</label>
+
+                <div class="flex justify-center gap-6">
+                    <label>
+                        <input type="radio" name="Gender" value="MALE" /> Male
+                    </label>
+
+                    <label>
+                        <input type="radio" name="Gender" value="FEMALE" /> Female
+                    </label>
+                </div>
+            </div>
+
+            <!-- SUBMIT -->
+            <button type="submit"
+                    class="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 rounded-lg">
+                Submit
+            </button>
+
+        </form>
+
+        <!-- BACK -->
+        <button onclick="location.href='/Auth/Login'"
+                class="w-full bg-gray-200 hover:bg-gray-300 text-black font-semibold py-2 rounded-lg mt-3">
+            Back to Login
+        </button>
+
+    </div>
+</div>m>

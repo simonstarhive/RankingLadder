@@ -1,0 +1,37 @@
+﻿@model List<RankingApp.Models.Ranking>
+
+<div style="background:white; padding:25px; border-radius:16px; box-shadow:0 10px 25px rgba(0,0,0,0.1);">
+
+    <!-- HEADER -->
+    <div style="display:flex; align-items:center; margin-bottom:20px;">
+        <a href="/User/Welcome" 
+           style="background:#facc15; color:white; padding:8px 14px; border-radius:8px; text-decoration:none; font-weight:bold;">
+            ←
+        </a>
+
+        <h2 style="flex:1; text-align:center; margin:0;">
+            Men's Ranking
+        </h2>
+    </div>
+
+    <!-- TABLE -->
+    <table style="width:100%; border-collapse:collapse;">
+        <thead>
+            <tr style="background:#facc15; color:white;">
+                <th style="padding:12px; text-align:left; border-radius:8px 0 0 8px;">Rank</th>
+                <th style="padding:12px; text-align:left;">Player</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var player in Model)
+            {
+                <tr style="border-bottom:1px solid #eee;">
+                    <td style="padding:12px; font-weight:bold;">@player.Rank</td>
+                    <td style="padding:12px;">@player.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

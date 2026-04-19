@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\14079\\source\\repos\\RankingApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA9EF7F-9653-48F7-963C-86BE901A910E}|RankingApp\\RankingApp.csproj|c:\\users\\14079\\source\\repos\\rankingapp\\rankingapp\\controllers\\rankingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA9EF7F-9653-48F7-963C-86BE901A910E}|RankingApp\\RankingApp.csproj|solutionrelative:rankingapp\\controllers\\rankingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA9EF7F-9653-48F7-963C-86BE901A910E}|RankingApp\\RankingApp.csproj|c:\\users\\14079\\source\\repos\\rankingapp\\rankingapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA9EF7F-9653-48F7-963C-86BE901A910E}|RankingApp\\RankingApp.csproj|solutionrelative:rankingapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA9EF7F-9653-48F7-963C-86BE901A910E}|RankingApp\\RankingApp.csproj|c:\\users\\14079\\source\\repos\\rankingapp\\rankingapp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA9EF7F-9653-48F7-963C-86BE901A910E}|RankingApp\\RankingApp.csproj|solutionrelative:rankingapp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA9EF7F-9653-48F7-963C-86BE901A910E}|RankingApp\\RankingApp.csproj|c:\\users\\14079\\source\\repos\\rankingapp\\rankingapp\\controllers\\scorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CA9EF7F-9653-48F7-963C-86BE901A910E}|RankingApp\\RankingApp.csproj|solutionrelative:rankingapp\\controllers\\scorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CA9EF7F-9653-48F7-963C-86BE901A910E}|RankingApp\\RankingApp.csproj|c:\\users\\14079\\source\\repos\\rankingapp\\rankingapp\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CA9EF7F-9653-48F7-963C-86BE901A910E}|RankingApp\\RankingApp.csproj|solutionrelative:rankingapp\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\14079\\source\\repos\\RankingApp\\RankingApp\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "RankingApp\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\14079\\source\\repos\\RankingApp\\RankingApp\\Services\\AuthService.cs",
+              "RelativeToolTip": "RankingApp\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T03:25:20.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScoreController.cs",
+              "DocumentMoniker": "C:\\Users\\14079\\source\\repos\\RankingApp\\RankingApp\\Controllers\\ScoreController.cs",
+              "RelativeDocumentMoniker": "RankingApp\\Controllers\\ScoreController.cs",
+              "ToolTip": "C:\\Users\\14079\\source\\repos\\RankingApp\\RankingApp\\Controllers\\ScoreController.cs",
+              "RelativeToolTip": "RankingApp\\Controllers\\ScoreController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T03:24:15.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RankingController.cs",
+              "DocumentMoniker": "C:\\Users\\14079\\source\\repos\\RankingApp\\RankingApp\\Controllers\\RankingController.cs",
+              "RelativeDocumentMoniker": "RankingApp\\Controllers\\RankingController.cs",
+              "ToolTip": "C:\\Users\\14079\\source\\repos\\RankingApp\\RankingApp\\Controllers\\RankingController.cs",
+              "RelativeToolTip": "RankingApp\\Controllers\\RankingController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T05:04:19.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\14079\\source\\repos\\RankingApp\\RankingApp\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "RankingApp\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\14079\\source\\repos\\RankingApp\\RankingApp\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "RankingApp\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T04:54:11.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\14079\\source\\repos\\RankingApp\\RankingApp\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "RankingApp\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\14079\\source\\repos\\RankingApp\\RankingApp\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "RankingApp\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-07T20:14:02.541Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

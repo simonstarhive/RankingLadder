@@ -1,0 +1,51 @@
+﻿@model List<RankingApp.Models.Score>
+
+<div class="min-h-screen flex items-center justify-center bg-blue-50">
+  <div class="w-full max-w-2xl bg-white rounded-2xl shadow-lg p-6">
+
+    <!-- HEADER -->
+    <div class="flex items-center mb-4">
+      <a href="/User/Welcome"
+         class="px-4 py-2 bg-yellow-400 hover:bg-yellow-500 text-white rounded-lg font-semibold">
+        ←
+      </a>
+
+      <h2 class="flex-1 text-center text-xl font-bold">
+        Women's Scores
+      </h2>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="space-y-3">
+
+      @if (Model == null || Model.Count == 0)
+      {
+          <p class="text-center text-gray-500">
+              No scores yet
+          </p>
+      }
+      else
+      {
+          foreach (var match in Model)
+          {
+              <div class="border-b last:border-0 pb-3 rounded-lg px-2">
+                  <p class="text-gray-800">
+                      <span class="font-semibold">
+                          @match.PlayerA
+                      </span>
+                      defeated
+                      <span class="font-semibold">
+                          @match.PlayerB
+                      </span>
+                      <span class="text-gray-600">
+                          (@match.ScoreValue)
+                      </span>
+                  </p>
+              </div>
+          }
+      }
+
+    </div>
+
+  </div>
+</div>

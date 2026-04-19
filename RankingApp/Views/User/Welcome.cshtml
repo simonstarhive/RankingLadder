@@ -1,0 +1,33 @@
+﻿@{
+    Layout = "_Layout";
+    var name = Context.Session.GetString("user");
+}
+
+<div class="flex justify-center items-center min-h-screen">
+    <div class="bg-white p-8 rounded-xl shadow-lg text-center w-96">
+        <h1 class="text-3xl font-bold mb-6">
+            Welcome, @(name ?? "Player")!
+        </h1>
+
+        <a href="/Ranking/Mens" class="block bg-yellow-400 hover:bg-yellow-500 text-white px-4 py-2 rounded-lg mb-3">
+            Men's Ranking
+        </a>
+
+        <a href="/Ranking/Womens" class="block bg-yellow-400 hover:bg-yellow-500 text-white px-4 py-2 rounded-lg mb-3">
+            Women's Ranking
+        </a>
+
+        <a href="/Score/Mens" class="block bg-yellow-400 hover:bg-yellow-500 text-white px-4 py-2 rounded-lg mb-3">
+            Men's Scores
+        </a>
+
+        <a href="/Score/Womens" class="block bg-yellow-400 hover:bg-yellow-500 text-white px-4 py-2 rounded-lg mb-6">
+            Women's Scores
+        </a>
+
+        <a href="/Auth/Login"
+           class="bg-gray-200 hover:bg-gray-300 px-4 py-2 rounded-lg">
+            Sign Out
+        </a>
+    </div>
+</div>
